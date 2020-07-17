@@ -1,0 +1,12 @@
+<mat-tab-group>
+  <mat-tab label="Websites" active="true">
+    <div class="site-container">
+      <app-site-card *ngFor="let site of sites" [site]="site"></app-site-card>
+    </div>
+  </mat-tab>
+  <mat-tab label="Games" active="true">
+    <div class="site-container">
+      <app-site-card *ngFor="let site of games" [site]="site"></app-site-card>
+    </div>
+  </mat-tab>
+</mat-tab-group>

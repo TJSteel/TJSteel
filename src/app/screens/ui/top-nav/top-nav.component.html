@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <!--
+    <button mat-icon-button class="icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+-->
+  <span><s>Terry</s> Jay Steel (TJSteel)</span>
+
+  <span class="spacer"></span>
+
+  <a *ngFor="let link of links" class="nav-link" mat-list-item [routerLink]="[link.link]" [routerLinkActive]="['active-nav-link']" [routerLinkActiveOptions]="{exact:true}">{{link.text}}</a>
+
+
+
+
+  <!--
+    <a mat-icon-button href='https://www.linkedin.com/in/jay-steel/' target="_blank">
+        <img src='../../../../../assets/images/logos/linkedIn.svg' alt="linkedIn" width="40">
+    </a>
+-->
+</mat-toolbar>

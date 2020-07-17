@@ -1,0 +1,17 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-link {
+  color: #aaaaaa;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: #eeeeee;
+}
+
+.active-nav-link {
+  color: #eeeeee;
+}
